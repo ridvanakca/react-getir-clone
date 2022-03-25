@@ -7,7 +7,7 @@ function Header() {
       <div className='container mx-auto  h-11 flex items-center justify-between'>
 
         <a href='#'>
-         <img className='h-10' src={process.env.PUBLIC_URL + '/logo.jpeg'} /> 
+         <img className='h-10' src={process.env.PUBLIC_URL + '/logo.png'} /> 
         </a>
 
         <nav className='flex gap-x-8 text-sm font-semibold'>
