@@ -780,6 +780,11 @@ html,
   row-gap: 0.25rem;
 }
 
+.gap-x-3 {
+  -webkit-column-gap: 0.75rem;
+          column-gap: 0.75rem;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -912,6 +917,11 @@ html,
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .pt-8 {
@@ -1255,6 +1265,12 @@ html,
 .peer:valid ~ .peer-valid\:text-primary-brand-color {
   --tw-text-opacity: 1;
   color: rgb(93 62 188 / var(--tw-text-opacity));
+}
+
+@media (min-width: 640px) {
+  .sm\:hidden {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) {
